@@ -1,0 +1,21 @@
+.section-2 {
+	background: #ffd451;
+	padding: 40px 0;
+	.services {
+		margin-top: 50px;
+		text-align: center;
+		img {
+			height: 130px;
+		}
+		.color-block {
+			height: 22px;
+			margin-top: -11px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 20px;
+			color: #333333;
+			font-weight: 600;
+		}
+	}
+}

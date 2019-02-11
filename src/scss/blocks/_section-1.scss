@@ -1,0 +1,56 @@
+.section-1 {
+	position: relative;
+	border-top: 23px solid #007df5;
+	background: #0091f8;
+	.title {
+		margin-bottom: 30px;
+		p {
+			font-weight: 400;
+			font-size: 24px;
+			color: #ffffff;
+		}
+	}
+	.section-1_inform-block {
+		margin-top: 30px;
+		background: #0462bb;
+		padding: 10px 15px;
+		margin-bottom: 26px;
+		p {
+			font-family: $open-font;
+			font-weight: 700;
+			color: #ffffff;
+			font-size: 18px;
+		}
+	}
+	.road {
+		background: url("../img/road.png") no-repeat center;
+		height: 108px;
+		background-size: cover;
+	}
+	.car {
+		position: absolute;
+		bottom: 17px;
+		left: 100px;
+		-webkit-animation: road .7s linear infinite;
+		-moz-animation: road .7s linear infinite;
+		-o-animation: road .7s linear infinite;
+		animation: road .7s linear infinite;
+	}
+}
+@-webkit-keyframes road {
+	from { -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+	to   { -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+@-moz-keyframes road {
+	from { -moz-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+	to   { -moz-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+@-o-keyframes road {
+	from { -o-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+	to   { -o-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+@keyframes road {
+	from { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+	to   { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
