@@ -1,14 +1,30 @@
 .section-7 {
-	position: relative;
-	z-index: 1;
-	padding-bottom: 96px;
-	.title {
-		margin-top: 15px;
+	background: #0091f8;
+	padding-top: 40px;
+	h2 {
+		color: #ffffff;
+		margin-bottom: 35px;
 	}
-	.poster {
-		margin-top: 45px;
-		img {
-			width: 100%;
+	p {
+		font-weight: 400;
+		font-size: 24px;
+		color: #ffffff;
+		text-align: center;
+	}
+	.link-number {
+		margin-top: 20px;
+		background: #007df5;
+		text-align: center;
+		padding: 6px 0;
+		a {
+			font-weight: 900;
+			font-size: 30px;
+			color: #ffffff;
+			text-transform: uppercase;
+			span {
+				font-weight: 400;
+				font-size: 16px;
+			}
 		}
 	}
 }

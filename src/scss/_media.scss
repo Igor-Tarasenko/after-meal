@@ -1,391 +1,218 @@
+@media screen and (max-width: 1788px) {
+	.section-1 .car {
+		left: 8px;
+	}
+}
+@media screen and (max-width: 1582px) {
+	.section-1 .car img {
+		max-width: 500px;
+	}
+}
 @media screen and (max-width: 1199px) {
-	header .header-menu ul li {
-		font-size: 16px;
-		margin-right: 25px;
+	header .logo {
+		img {
+			width: 100%;
+		}
 	}
-	header .header-phone a {
-		font-size: 15px;
+	header .header-address, header .phone-header {
+		margin-top: 15px;
 	}
-	header .header-phone a:first-child {
-		margin-right: 8px;
-		margin-top: 10px;
+	header .phone-header .call, header .header-address p:first-child {
+		font-size: 27px;
 	}
-	.section-1 .prize_text p {
-		font-size: 16px;
+	header .header-address p, header .phone-header p {
+		font-size: 14px;
 	}
-	.section-1 .prize_text p:first-child {
-		font-size: 18px;
+	h1 {
+		font-size: 32px;
 	}
-	.form .form-group p {
-		font-size: 13px;
+	.section-1 .car {
+		bottom: 57px;
+		img {
+			max-width: 450px;
+		}
 	}
 	h2 {
-		font-size: 39px;
+		font-size: 27px;
 	}
-	.section-3 .for-kids_list li p,
-	.section-3 .for-parents_list li p {
-		font-size: 15px;
-	}
-	.section-4 .package-title p {
-		font-size: 24px;
-	}
-	.section-4 .contain-text ul li {
+	.section-2 .services p {
 		font-size: 16px;
 	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 348px;
+	.section-3 .text-block p {
+		font-size: 16px;
 	}
-	.section-8 .politiks a {
-		margin-top: 16px;
+	.section-3 .img-block img {
+		max-width: 100px;
+	}
+	.section-4 .crocodile img {
+		max-width: 641px;
+	}
+	.section-4 .cost .cost_price p {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.section-4 .cost p {
+		font-size: 18px;
+	}
+	.section-5 p {
+		font-size: 18px;
+	}
+	.section-6 .rule p {
+		font-size: 18px;
+	}
+	.section-7 h2 {
+		margin-bottom: 20px;
+	}
+	.section-7 p {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.section-1 .car img {
+		max-width: 400px;
 	}
 }
 @media screen and (max-width: 991px) {
-	header {
-		padding: 10px 0;
+	header .header-address, header .phone-header {
+		text-align: center;
 	}
-	.navbar {
-		height: 100%;
+	.section-1 .section-1_inform-block {
+		margin-bottom: 206px;
 	}
-	.navbar-toggler {
-		background: url("../img/burger.png") no-repeat center;
-		background-size: contain;
-		height: 100%;
-		width: 25px;
-		padding: 0;
+	.section-1 .car {
+		left: 50%;
+		margin-left: -200px;
 	}
-	header .header-phone a:first-child {
-		margin-top: 0;
+	.section-3 .advantages {
+		display: block;
+		text-align: center;
 	}
-	header .logo img {
-		top: -23px;
+	.section-3 .text-block {
+		justify-content: center;
 	}
-	.navbar-collapse {
-		position: absolute;
-		top: 60px;
-		left: 0;
-		z-index: 1000;
-		background: rgba(121, 0, 255, 0.9);
-	}
-	header .header-menu ul {
-		padding: 0 20px;
-	}
-	.fixed .navbar-collapse {
-		position: absolute;
-		top: 70px;
-		height: 100vh;
-		left: 0;
-		width: 100vw;
-		z-index: 1000;
-		background: rgba(121, 0, 255, 0.9);
-		ul {
-			padding: 0 20px;
-			position: relative;
-			top: 50%;
-			margin-top: -150px;
-			left: 50%;
-			margin-left: -77px;
-			width: 154px;
-		}
-	}
-	header .header-menu ul li {
-		padding: 10px 0;
-		margin-right: 0;
-	}
-	h1 {
-		margin-top: 23px;
-	}
-	.section-1 .section-1_description h2 {
-		font-size: 28px;
-	}
-	.form .btn-block .btn {
-		font-size: 14px;
-	}
-	.section-3 .for-kids_list li,
-	.section-3 .for-parents_list li {
-		padding: 5px 15px 5px 15px;
-	}
-	.section-4 .games-information-block {
-		margin-top: 0;
-	}
-	.section-4 .games-text {
-		margin-top: 30px;
-		p {
-			margin-bottom: 0;
-		}
-	}
-	.section-4 .package-title p {
-		font-size: 21px;
-	}
-	.section-4 .price p span {
-		font-size: 32px;
-	}
-	.section-4 .contain-text ul li {
-		font-size: 14px;
-	}
-	.section-5 .six-bg {
-		top: -227px;
-		background-position: center!important;
-	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 261px;
-	}
-	.section-8 .address p, .section-8 .number a, .section-8 .time p {
-		font-size: 14px;
-	}
-	.section-8 .footer-logo img {
+	.section-3 .advantages .row {
 		width: auto;
 	}
-	.section-8 .contact-footer p {
-		margin-bottom: 0;
+	.section-3 .img-block {
+		margin-bottom: 15px;
 	}
-	.section-8 .contact-footer a {
-		font-size: 15px;
+	.section-4 .crocodile {
+		height: 300px;
 	}
-	.section-8 .politiks a {
-		font-size: 14px;
+	.section-4 .crocodile img {
+		top: 96px;
 	}
-	.section-2 .right-img {
-		width: 100%;
-		background-position: center!important;
+	.section-5 .section-5_img {
+		text-align: center;
 	}
-	.section-2 .left-img {
-		display: none;
+	.section-6 .rule p {
+		font-size: 16px;
 	}
-	.section-4 {
-		margin-top: 40px;
-	}
-	.section-2 {
-		padding-bottom: 90px;
-	}
-	.section-4 .slick-slider .slick-next {
-		right: 32%;
-	}
-	.section-4 .slick-slider .slick-prev {
-		left: 32%;
+	.section-7 p {
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 767px) {
-	header .header-phone a {
-		font-size: 14px;
+	h1 {
+		font-size: 30px;
+		margin-top: 30px;
 	}
-	header .header-menu ul li {
-		font-size: 14px;
+	.section-1 .description {
+		p {
+			font-size: 14px;
+		}
 	}
-	.section-1 .section-1_prize {
-		padding: 20px 0 30px 0;
+	h2 {
+		font-size: 23px;
 	}
-	.section-1 .prize_img {
+	.section-3 .section-3_inform-block p {
+		font-size: 16px;
+	}
+	.section-4 .crocodile img {
+		max-width: 493px;
+		top: 138px;
+	}
+	.section-4 .cost p {
+		font-size: 16px;
+	}
+	.section-5 p {
+		font-size: 16px;
+	}
+	.section-5 h2 {
 		margin-bottom: 20px;
 	}
-	.section-1 .prize_text p {
-		text-align: center;
-	}
-	h1 {
-		font-size: 33px;
-		line-height: 39px;
-	}
-	.form .form-group {
-		margin-top: 5px;
-	}
-	.form .btn-block {
+	.section-5 .section-5_img {
 		margin-top: 20px;
 	}
-	.section-1 .first-bg {
-		height: 1050px;
+	.section-6 .rule .img-block img {
+		max-width: 359px;
 	}
-	.section-1 {
-		padding: 45px 0 56px 0;
+}
+@media screen and (max-width: 530px) {
+	h1 {
+		font-size: 26px;
+	}
+	.section-1 .title p {
+		font-size: 20px;
+	}
+	.section-1 .car img {
+		max-width: 350px;
+	}
+	.section-1 .car {
+		margin-left: -175px;
 	}
 	h2 {
-		font-size: 34px;
-		line-height: 40px;
+		font-size: 21px;
 	}
-	.section-2 .section-2_text p, .section-3 .section-3_description p {
-		font-size: 15px;
+	.section-4 .cost .cost_price {
+		justify-content: space-between;
 	}
-	.section-4 .games-text {
-		margin-top: 15px;
+	.section-4 .cost .cost_price p:last-child {
+		margin-left: 0;
 	}
-	.section-5 .slide-img img {
-		width: auto;
-		max-height: 220px;
+	.section-7 .link-number a {
+		font-size: 25px;
 	}
-	.section-5 .six-bg {
-		top: -89px;
-	}
-	.section-3 .fours-bg {
-		background-size: contain!important;
-		height: 457px;
-	}
-	.section-2 .figure img {
-		max-width: 150px;
-	}
-	.section-4 {
-		padding-bottom: 0;
-	}
-	.section-4 .slick-slider .slick-next {
-		right: 28%;
-	}
-	.section-4 .slick-slider .slick-prev {
-		left: 28%;
-	}
-}
-@media screen and (max-width: 575px) {
-	.section-8 .contact-block {
-		box-shadow: none;
-	}
-	.section-2 .figure-block {
-		display: block;
-	}
-	.section-2 .figure {
-		margin: 0 auto;
-	}
-	.section-6 .roadmap-block:nth-child(4) .roadmap-btn .violet-block:before {
-		content: '';
-		position: absolute;
-		left: 0;
-		top: -30px;
-		bottom: -30px;
-		width: 1px;
-		display: block;
-		background: -webkit-gradient(linear, left bottom, left top, from(rgba(98, 54, 151, 0)), color-stop(#623697), to(rgba(98, 54, 151, 0)));
-		background: linear-gradient(to top, rgba(98, 54, 151, 0), #623697, rgba(98, 54, 151, 0));
-	}
-	.section-8 .contact-title {
-		margin-top: 60px;
-	}
-	.section-2 {
-		padding-bottom: 40px;
-	}
-	.section-3 .for_kids, .section-3 .for_parents {
-		margin-top: 25px;
-	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 350px;
-	}
-	.section-8 .footer-logo {
-		text-align: center;
-	}
-	.section-8 .footer-menu {
-		text-align: center;
-	}
-	.section-8 .contact-footer {
-		margin-top: 15px;
-		text-align: center;
-	}
-	.section-8 .politiks {
-		text-align: center;
-	}
-	.section-2 .right-img {
-		display: none;
-	}
-	.section-2 .left-img {
-		width: 100%;
-		background-position: center!important;
-		display: block;
-	}
-	.modal-dialog {
-		padding: 20px 20px 50px 20px;
-	}
-	.modal-dialog .close-btn {
-		top: 0;
-		right: 0;
-	}
-}
-@media screen and (max-width: 500px) {
-	h2 {
-		font-size: 30px;
-	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 310px;
-	}
-	.section-4 .slick-slider .slick-next {
-		right: 17%;
-	}
-	.section-4 .slick-slider .slick-prev {
-		left: 17%;
-	}
-}
-@media screen and (max-width: 450px) {
-	.section-5 .description p {
-		font-size: 14px;
-	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 280px;
+	.section-8 .map {
+		height: 370px;
 	}
 }
 @media screen and (max-width: 415px) {
-	.section-2 .btn {
-		width: 100%;
+	h1 {
+		font-size: 22px;
 	}
-	.section-8 .contact-header {
+	.section-4 .cost .cost_price p {
+		font-size: 25px;
+		line-height: 31px;
+	}
+	.section-7 .link-number a span {
 		display: block;
-		text-align: center;
-		padding: 23px 81px;
 	}
-	.section-8 .address, .section-8 .number, .section-8 .time {
-		display: inline-block;
+}
+@media screen and (max-width: 370px) {
+	.section-1 .car {
+		margin-left: -150px;
 	}
-	.section-1 .section-1_description h2 {
+	.section-1 .car img {
+		max-width: 300px;
+	}
+	.section-1 .section-1_inform-block {
+		margin-bottom: 150px;
+	}
+	.section-4 .cost .cost_price p {
 		font-size: 22px;
 		line-height: 28px;
 	}
-	.section-2 .figure img {
-		max-width: 130px;
+	.section-4 .crocodile p {
+		font-size: 25px;
 	}
-}
-@media screen and (max-width: 390px) {
-	.section-1 .section-1_description h2 {
-		font-size: 20px;
-		line-height: 26px;
-	}
-	.section-2 .figure {
-		width: 250px;
-	}
-	h1 {
-		font-size: 31px;
-		line-height: 37px;
-	}
-	header .header-phone a {
-		text-align: center;
-	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 250px;
-	}
-	.section-2 .figure img {
-		max-height: 70px;
-		max-width: 100px;
-	}
-}
-@media screen and (max-width: 379px) {
-	header .logo img {
-		top: -19px;
-	}
-	.yellow-text p {
-		font-size: 21px;
-	}
-	.section-8 .contact-header {
-		padding: 23px 63px;
-	}
-	.section-8 .contact-img, .section-8 .contact-map {
-		height: 232px;
-	}
-	header .header-phone a:first-child {
-		margin-right: 0;
-	}
-	header .header-phone a span {
-		display: none;
-	}
-	.section-4 .slick-slider .slick-next {
-		right: 7%;
-	}
-	.section-4 .slick-slider .slick-prev {
-		left: 7%;
+	.section-4 .crocodile img {
+		right: 10px;
 	}
 }
 @media screen and (max-width: 350px) {
-	.section-2 .figure img {
-		max-height: 60px;
-		max-width: 66px;
+	.section-4 .cost .cost_price p {
+		font-size: 20px;
+		line-height: 26px;
 	}
 }

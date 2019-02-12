@@ -1,7 +1,7 @@
 .section-3 {
 	background: #d0eeea;
 	border-top: 14px solid #66bfbb;
-	padding-top: 20px;
+	padding: 20px 0;
 	.section-3_inform-block {
 		background: #66bfbb;
 		text-align: center;
@@ -26,6 +26,9 @@
 		min-height: 160px;
 		display: flex;
 		align-items: center;
+		.row {
+			width: 100%;
+		}
 	}
 	.img-block {
 		text-align: center;
